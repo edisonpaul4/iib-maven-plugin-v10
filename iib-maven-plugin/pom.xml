@@ -270,22 +270,7 @@
 		</profile>
 	</profiles>
 	<repositories>
-		<repository>
-			<id>central</id>
-			<name>Central Repository</name>
-			<url>RepoPath</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
-		<repository>
-			<id>JBoss3rdParty</id>
-			<name>JBoss3rdParty</name>
-			<url>https://repository.jboss.org/nexus/content/repositories/thirdparty-releases/</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</repository>
+		
 		<repository>
 			<id>centralImage</id>
 			<name>Central Repository</name>
@@ -293,14 +278,7 @@
 		</repository>
 	</repositories>
 	<pluginRepositories>
-		<pluginRepository>
-			<id>central</id>
-			<name>Central Repository</name>
-			<url>RepoPath</url>
-			<snapshots>
-				<enabled>false</enabled>
-			</snapshots>
-		</pluginRepository>
+		
 	</pluginRepositories>
 	<dependencyManagement>
 		<dependencies>
