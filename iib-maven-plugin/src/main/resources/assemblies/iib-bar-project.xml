@@ -9,7 +9,7 @@
 	<includeBaseDirectory>false</includeBaseDirectory>
 	<fileSets>
 		<fileSet>
-			<directory>${project.build.directory}/iib</directory>
+			<directory>${project.build.directory}</directory>
 			<outputDirectory>.</outputDirectory>
 			<filtered>false</filtered>
 		</fileSet>
